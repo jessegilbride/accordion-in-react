@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'roddenberry';
+  src: url('./fonts/roddenberry/RoddenberryRegular.ttf');
+  /* font-weight: normal;
+  font-style: normal; */
+}
+
+.Accordion {
+  width: 720px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.Accordion__item {
+  margin-bottom: 2px;
+}
+
+.Accordion__item button {
+  background: lightgrey;
+  border: 1px solid #222;
+  padding: 10px 20px;
+  width: 100%;
+  font-family: 'roddenberry';
+  font-size: 28px;
+  /* font-weight: bold; */
+}
+
+.Accordion__item p {
+  margin: 0;
+  padding: 20px 40px;
+  background: #800000;
+  border: 1px solid #777;
+  border-top: none;
+  text-align: center;
+}
+
